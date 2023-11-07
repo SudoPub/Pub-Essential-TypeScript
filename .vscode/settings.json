@@ -1,0 +1,14 @@
+{
+    "cSpell.words": [
+        "camelcase",
+        "codecov",
+        "sudoo",
+        "sudopub",
+        "triforce",
+        "Triggerable",
+        "WMXPY"
+    ],
+    "eslint.options": {
+        "overrideConfigFile": "./typescript/.eslintrc.json"
+    }
+}
