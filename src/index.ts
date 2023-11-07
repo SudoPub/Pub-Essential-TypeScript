@@ -1,6 +1,6 @@
 /**
  * @author WMXPY
- * @namespace Pub
+ * @namespace Essential
  * @description Index
  */
 
