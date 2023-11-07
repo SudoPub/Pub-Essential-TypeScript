@@ -1,0 +1,45 @@
+{
+  "name": "@sudopub/essential",
+  "version": "1.0.0",
+  "description": "Essential Library for Pub",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudoPub/Pub-Essential-TypeScript.git"
+  },
+  "keywords": [
+    "Workflow",
+    "Orchestration"
+  ],
+  "author": "WMXPY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SudoPub/Pub-Essential-TypeScript/issues"
+  },
+  "homepage": "https://sudo.pub",
+  "dependencies": {
+    "@sudoo/optional": "^2.0.0",
+    "@sudoo/pattern": "^1.10.0",
+    "@sudoo/symbol": "^1.2.0",
+    "@sudoo/uuid": "^1.1.0",
+    "@sudoo/verify": "^1.19.0"
+  },
+  "devDependencies": {
+    "@sudoo/triforce": "^3.11.0",
+    "ts-node": "^10.9.1"
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "instrument": true,
+    "reporter": [
+      "json",
+      "text-summary"
+    ],
+    "report-dir": "coverage",
+    "sourceMap": true
+  }
+}
