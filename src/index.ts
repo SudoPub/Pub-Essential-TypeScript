@@ -4,9 +4,12 @@
  * @description Index
  */
 
+export * from "./action/create";
 export * from "./action/definition/action";
 export * from "./action/definition/map-espial-succeed";
 export * from "./connection/definition/configuration";
+export * from "./identifier/generate";
+export * from "./plan/create";
 export * from "./plan/definition/plan";
 export * from "./procedure/definition/configuration";
 export * from "./procedure/definition/driver";
