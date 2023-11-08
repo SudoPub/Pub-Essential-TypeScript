@@ -9,10 +9,14 @@ Essential Library for Pub
 
 ## Install
 
+Install with [yarn](https://yarnpkg.com/en/)
 ```sh
 yarn add @sudopub/essential
 yarn add @sudoo/pattern # Peer Dependency
-# Or
+```
+
+Install with [npm](https://www.npmjs.com/)
+```sh
 npm install @sudopub/essential --save
 npm install @sudoo/pattern --save # Peer Dependency
 ```
