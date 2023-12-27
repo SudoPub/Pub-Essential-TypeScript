@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@sudoo/pattern": "^1.10.0",
-    "@sudoo/triforce": "^3.11.0",
+    "@sudoo/triforce": "^3.12.0",
     "ts-node": "^10.9.2"
   },
   "nyc": {
